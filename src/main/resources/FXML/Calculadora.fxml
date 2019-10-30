@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane id="contenido" fx:id="contenido" alignment="CENTER" hgap="5.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="550.0" prefWidth="450.0" style="-fx-background-color: #777;" vgap="5.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+  <columnConstraints>
+    <ColumnConstraints hgrow="ALWAYS" minWidth="25.0" prefWidth="100.0" />
+    <ColumnConstraints hgrow="ALWAYS" minWidth="25.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="ALWAYS" minWidth="25.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="ALWAYS" minWidth="25.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="ALWAYS" minWidth="25.0" prefWidth="100.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints maxHeight="100.0" minHeight="100.0" prefHeight="100.0" vgrow="NEVER" />
+    <RowConstraints minHeight="25.0" prefHeight="100.0" vgrow="ALWAYS" />
+      <RowConstraints minHeight="25.0" prefHeight="100.0" vgrow="ALWAYS" />
+      <RowConstraints minHeight="25.0" prefHeight="100.0" vgrow="ALWAYS" />
+      <RowConstraints minHeight="25.0" prefHeight="100.0" vgrow="ALWAYS" />
+  </rowConstraints>
+   <children>
+      <Label fx:id="resultadoLabel" alignment="CENTER_RIGHT" prefHeight="134.0" prefWidth="600.0" text="0" GridPane.columnSpan="5" GridPane.hgrow="ALWAYS" GridPane.valignment="CENTER">
+         <font>
+            <Font name="Consolas Bold" size="40.0" />
+         </font>
+         <GridPane.margin>
+            <Insets right="20.0" />
+         </GridPane.margin>
+      </Label>
+      <Button id="sieteButton" fx:id="sieteButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="7" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+         <font>
+            <Font name="Consolas Bold" size="40.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor></Button>
+      <Button id="ochoButton" fx:id="ochoButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="8" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+         <font>
+            <Font name="Consolas Bold" size="40.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor></Button>
+      <Button id="nueveButton" fx:id="nueveButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="9" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+         <font>
+            <Font name="Consolas Bold" size="40.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor></Button>
+      <Button id="ceButton" fx:id="ceButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="CE" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+         <font>
+            <Font name="Consolas Bold" size="30.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor></Button>
+      <Button id="cButton" fx:id="cButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="C" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+         <font>
+            <Font name="Consolas Bold" size="40.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor></Button>
+      <Button id="cuatroButton" fx:id="cuatroButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="4" textAlignment="CENTER" GridPane.rowIndex="2">
+         <font>
+            <Font name="Consolas Bold" size="40.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </Button>
+      <Button id="cincoButton" fx:id="cincoButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="5" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="2">
+         <font>
+            <Font name="Consolas Bold" size="40.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </Button>
+      <Button id="unoButton" fx:id="unoButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="1" textAlignment="CENTER" GridPane.rowIndex="3">
+         <font>
+            <Font name="Consolas Bold" size="40.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </Button>
+      <Button id="divisionButton" fx:id="divisionButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="/" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="2">
+         <font>
+            <Font name="Consolas Bold" size="40.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </Button>
+      <Button id="multiplicacionButton" fx:id="multiplicacionButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="*" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="2">
+         <font>
+            <Font name="Consolas Bold" size="40.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </Button>
+      <Button id="seisButton" fx:id="seisButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="6" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="2">
+         <font>
+            <Font name="Consolas Bold" size="40.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </Button>
+      <Button id="sumaButton" fx:id="restaButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="-" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="3">
+         <font>
+            <Font name="Consolas Bold" size="40.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </Button>
+      <Button id="tresButton" fx:id="tresButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="3" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="3">
+         <font>
+            <Font name="Consolas Bold" size="40.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </Button>
+      <Button id="dosButton" fx:id="dosButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="2" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="3">
+         <font>
+            <Font name="Consolas Bold" size="40.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </Button>
+      <Button id="sumaButton" fx:id="sumaButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="+" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="4">
+         <font>
+            <Font name="Consolas Bold" size="40.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </Button>
+      <Button id="puntoButton" fx:id="puntoButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="." textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="4">
+         <font>
+            <Font name="Consolas Bold" size="40.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </Button>
+      <Button id="ceroButton" fx:id="ceroButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="0" textAlignment="CENTER" GridPane.columnSpan="2" GridPane.rowIndex="4">
+         <font>
+            <Font name="Consolas Bold" size="40.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </Button>
+      <Button id="igualButton" fx:id="resultadoButton" defaultButton="true" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="=" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="3" GridPane.rowSpan="2">
+         <font>
+            <Font name="Consolas Bold" size="40.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </Button>
+   </children>
+   <padding>
+      <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+   </padding>
+</GridPane>
